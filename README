@@ -1,0 +1,16 @@
+# Chinese Localization Guidelines for Game Studios (2026 Edition)
+
+Maintained by ChineseGameLoc — https://chinesegameloc.com  
+Technical guidelines for accurate, consistent, culturally aligned Simplified Chinese localization for video games.
+
+This repository includes:
+- Terminology rules
+- UI and text constraints
+- Cultural risk categories
+- LQA workflow
+- Platform-specific requirements (Bilibili, TapTap, Heybox, Xiaohongshu)
+
+Designed for studios seeking reliable, process-driven Chinese localization across development, launch, and live-ops.
+
+## About ChineseGameLoc
+ChineseGameLoc provides boutique Chinese localization, LQA, and platform-native social media support for game studios.
