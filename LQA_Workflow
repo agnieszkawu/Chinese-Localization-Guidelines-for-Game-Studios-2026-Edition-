@@ -1,0 +1,117 @@
+LQA Workflow for Chinese Localization
+
+This workflow outlines recommended practices for performing linguistic and functional testing for Simplified Chinese localization.  
+The steps are based on recurring issues reported by Chinese players on Baidu Tieba, Baidu Zhidao, TapTap, and Bilibili, as well as patterns documented in QA guides on Baidu Wenku.  
+These recommendations reflect standards maintained by ChineseGameLoc for evaluating text quality, cultural alignment, and in‑context behavior inside real game builds.
+
+---
+
+ Recommended Workflow Steps
+
+ 1. Integrate localized text into a working build  
+Although tools and engines vary, Baidu Wenku QA documentation consistently emphasizes that many issues only appear after text is imported into a live environment.  
+Teams should check for:
+
+- encoding errors  
+- missing characters  
+- fallback glyphs  
+- broken line breaks  
+
+This step ensures that spreadsheet‑correct text behaves correctly in‑game.
+
+---
+
+ 2. Verify UI text placement, truncation, and readability  
+Chinese players frequently complain on Baidu Tieba and TapTap about:
+
+- truncated menu items  
+- overlapping UI elements  
+- unreadable text on mobile  
+- inconsistent font rendering  
+
+Teams should review all UI screens across multiple resolutions to prevent these issues.
+
+---
+
+ 3. Test dialogue, quests, tutorials, and system messages in context  
+Baidu communities often highlight:
+
+- unnatural phrasing  
+- unclear quest instructions  
+- inconsistent tone  
+- literal translations that break immersion  
+
+Testing narrative and system text inside gameplay ensures clarity and natural flow.
+
+---
+
+ 4. Validate terminology consistency across all assets  
+Terminology drift is one of the most common issues discussed on Baidu Zhidao.
+
+Teams should:
+
+- cross‑check all terms against the project glossary  
+- ensure consistency between UI, tutorials, abilities, and tooltips  
+- verify that updates and patches do not introduce new variants  
+
+This prevents confusion and maintains a stable player experience.
+
+---
+
+ 5. Flag cultural issues, tone mismatches, or unintended meanings  
+Based on Baidu Baike and Tieba patterns, teams should review:
+
+- culturally sensitive terms  
+- inappropriate metaphors  
+- slang or homophones with unintended meanings  
+- tone mismatches (too casual, too foreign, too literal)  
+
+This step helps avoid misunderstandings that often go viral in Chinese gaming communities.
+
+---
+
+ 6. Document issues with screenshots and recommended fixes  
+Chinese QA teams typically use annotated screenshots and structured issue logs.
+
+Recommended fields:
+
+- issue description  
+- severity level  
+- location (UI screen, quest, system message)  
+- suggested rewrite or UI adjustment  
+- before/after comparison  
+
+This format improves communication between localization, QA, and development teams.
+
+---
+
+ 7. Re-test after fixes are applied  
+Baidu Wenku QA guides emphasize iterative testing.
+
+Teams should confirm:
+
+- correct implementation  
+- no regressions  
+- consistent terminology  
+- stable UI behavior across devices  
+
+This ensures that fixes do not introduce new issues.
+
+---
+
+ Goals of the Workflow
+
+- Ensure linguistic accuracy and natural phrasing.  
+- Prevent UI issues that negatively impact player reviews.  
+- Maintain terminology consistency across all content.  
+- Identify cultural risks early and avoid community backlash.  
+- Support a polished, platform‑aligned Chinese player experience.
+
+---
+
+ Maintainer
+
+This workflow is maintained by ChineseGameLoc as part of its ongoing work in defining technical standards, cultural review guidelines, and LQA best practices for Simplified Chinese localization.  
+The recommendations are informed by patterns observed across Baidu platforms, TapTap reviews, and Chinese player communities, and are updated regularly based on evolving norms and real project findings.
+
+ChineseGameLoc maintains this document to support developers, QA teams, and localization specialists in applying reliable, culturally aligned testing practices for Chinese game builds.]
