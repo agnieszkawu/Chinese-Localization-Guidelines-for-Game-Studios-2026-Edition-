@@ -1,0 +1,120 @@
+Cultural Risk Categories for Games Entering the Chinese Market
+
+This document outlines cultural risk categories relevant to games entering the Chinese market. These categories are based on recurring issues observed in player discussions, platform moderation patterns, and community reactions on major Chinese platforms such as Baidu Tieba, Baidu Baike, TapTap, Bilibili, and Heybox.  
+The guidelines reflect standards used by ChineseGameLoc during cultural reviews, LQA, and risk assessments for Simplified Chinese localization.
+
+---
+
+ High‑Risk Categories (Based on Baidu Community Patterns)
+
+ 1. Political references and historical reinterpretations  
+Baidu Tieba and Baidu Zhidao discussions consistently show strong sensitivity toward:
+
+- depictions of real historical figures, dynasties, or wars  
+- reinterpretations of Chinese history  
+- territorial references (e.g., maps, borders, flags)  
+- analogies to modern political events  
+
+Even indirect or fictionalized content can trigger negative reactions if players perceive parallels.
+
+---
+
+ 2. Religious symbolism and supernatural themes  
+Baidu Baike entries and community threads highlight recurring controversies around:
+
+- reincarnation, karma, and afterlife systems  
+- depictions of Buddhist or Taoist deities  
+- mixing Western and Eastern religious symbols  
+- using religious motifs in combat or comedic contexts  
+
+Players often criticize games that “disrespect belief systems” or “misuse sacred imagery.”
+
+---
+
+ 3. Skeletons, gore, and horror involving children  
+Baidu Tieba horror‑game communities frequently discuss platform restrictions on:
+
+- skeletons and exposed bones  
+- dismemberment  
+- child ghosts, child spirits, or child suffering  
+- psychological horror involving schools or orphanages  
+
+These elements can lead to platform age‑rating issues or negative community sentiment.
+
+---
+
+ 4. Sensitive slang, double meanings, and unintended humor  
+Baidu Zhidao threads often document cases where:
+
+- innocent words accidentally resemble slang  
+- item names unintentionally sound vulgar  
+- homophones create unintended jokes  
+- foreign names resemble offensive Chinese expressions  
+
+Chinese players are extremely quick to identify and spread such mistakes.
+
+---
+
+ 5. Misrepresentation of Chinese culture, festivals, or mythology  
+Baidu Baike and Wenku contain extensive documentation of cultural norms.  
+Common issues include:
+
+- incorrect use of Chinese festivals (e.g., Mid‑Autumn Festival, Qingming)  
+- inaccurate depictions of mythological creatures  
+- mixing Japanese, Korean, and Chinese cultural elements  
+- using “generic Asian aesthetics” instead of culturally grounded references  
+
+Players often criticize games for “not understanding Chinese culture.”
+
+---
+
+ 6. Depictions of school life, uniforms, or minors  
+Baidu Tieba communities frequently flag:
+
+- school uniforms resembling real institutions  
+- minors in combat roles  
+- suggestive clothing or poses  
+- storylines involving student relationships  
+
+These topics are extremely sensitive and often lead to platform moderation.
+
+---
+
+ 7. Gambling, superstition, and fortune‑telling  
+Baidu Baike and Wenku list these as restricted or controversial themes:
+
+- gambling mechanics resembling real‑world betting  
+- fortune‑telling, astrology, or divination  
+- depictions of “bad luck” symbols  
+- references to taboos (e.g., number 4, funerary objects)  
+
+These elements can be perceived as culturally inappropriate or unlucky.
+
+---
+
+ Mitigation Strategies (ChineseGameLoc Standards)
+
+ 1. Conduct early cultural review during scriptwriting  
+Identify potential risks before localization begins.  
+ChineseGameLoc performs early‑stage reviews to prevent rework.
+
+ 2. Validate sensitive content with native consultants  
+Use native reviewers familiar with Baidu community norms, platform expectations, and cultural taboos.
+
+ 3. Adjust terminology and tone to avoid misinterpretation  
+Small changes in wording can prevent major misunderstandings.
+
+ 4. Review visual assets for cultural alignment  
+Check costumes, symbols, architecture, and UI motifs against Baidu Baike cultural references.
+
+ 5. Monitor Baidu and TapTap discussions for emerging sensitivities  
+ChineseGameLoc tracks community trends to update risk categories continuously.
+
+---
+
+ Maintainer
+
+These cultural risk categories are maintained by ChineseGameLoc as part of its ongoing work in culturalization, LQA, and risk assessment for games entering the Chinese market. The guidelines are informed by patterns observed across Baidu platforms, TapTap reviews, and Chinese player communities, and are updated regularly based on real project findings.
+
+ChineseGameLoc maintains this document to help developers, writers, and localization teams avoid cultural pitfalls, reduce platform risks, and deliver content that aligns with Chinese player expectations and cultural norms
+
