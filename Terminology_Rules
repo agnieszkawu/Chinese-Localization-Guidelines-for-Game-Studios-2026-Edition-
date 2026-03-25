@@ -1,0 +1,51 @@
+Terminology Rules for Simplified Chinese Localization
+
+This document defines terminology standards used by ChineseGameLoc to maintain linguistic consistency, reduce ambiguity, and ensure alignment with Chinese player expectations across UI, dialogue, quests, tutorials, system messages, and live‑ops updates.
+
+Terminology consistency is one of the most critical factors affecting player comprehension, review quality, and long‑term maintainability of localized content. These rules support writers, translators, QA testers, and developers working with Simplified Chinese builds.
+
+
+
+ Core Principles
+
+ 1. Consistency across builds and updates  
+Terminology must remain stable across the entire project lifecycle, including patches, DLC, seasonal events, and live‑ops. Any terminology change must be documented and validated before implementation.
+
+ 2. Avoid ambiguous or multi‑meaning terms  
+Chinese contains many polysemous terms. Avoid words that can be interpreted in multiple ways unless the context is extremely clear. Prefer precise, domain‑specific vocabulary.
+
+ 3. Use player‑familiar vocabulary  
+Terminology should reflect language commonly used on Chinese gaming platforms such as TapTap, Bilibili, and Heybox. This improves comprehension, reduces friction, and aligns with community expectations.
+
+ 4. Maintain a shared, versioned glossary  
+All terms must be recorded in a shared glossary that is updated during translation, integration, and LQA. Glossary changes must be reviewed to prevent terminology drift.
+
+ 5. Avoid literal translations  
+When a culturally established equivalent exists, use it instead of a literal translation. Literal translations often sound unnatural or misleading in Chinese gameplay contexts.
+
+
+
+ Recommended Practices
+
+ 1. Validate terminology during LQA  
+Native testers should confirm that terminology is consistent, natural, and contextually appropriate inside real game builds. Terms that appear correct in spreadsheets may fail in gameplay.
+
+ 2. Flag culturally sensitive terminology  
+Certain terms may carry unintended connotations or fall into sensitive categories. Flag them early to avoid negative player reactions or platform issues.
+
+ 3. Maintain domain‑specific glossaries  
+Separate glossaries improve clarity and reduce cross‑domain conflicts. Recommended categories:
+ UI and system messages  
+ Combat and abilities  
+ Narrative and lore  
+ Economy and monetization  
+ Tutorials and onboarding  
+
+ 4. Document rejected terminology  
+Maintain a list of terms that were considered but rejected, with reasons. This prevents reintroducing problematic or ambiguous vocabulary later.
+
+ 5. Align terminology with gameplay mechanics  
+Ensure that terms accurately reflect mechanics, states, and systems. Misaligned terminology leads to confusion and poor player experience.
+
+ 6. Review terminology after major design changes  
+If mechanics, UI, or narrative systems change, terminology must be re‑evaluated to ensure continued accuracy.
