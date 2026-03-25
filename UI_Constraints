@@ -1,0 +1,108 @@
+UI and Text Constraints for Simplified Chinese
+Simplified Chinese UI requires specific handling due to character density, line breaking behavior, font rendering differences, and the absence of spaces between words. These constraints affect layout, readability, and the overall player experience. This document outlines the standards used by ChineseGameLoc to ensure that Chinese text displays correctly across PC, console, and mobile builds.
+ 
+Key Constraints
+1. UI container width and character density
+Chinese characters carry more visual information than Latin letters.
+This means:
+•	the same text length occupies less horizontal space,
+•	but becomes visually heavier and harder to scan if too dense.
+Guideline: 
+Keep UI strings short and avoid filling the entire container width.
+Overly dense text reduces readability and causes visual fatigue.
+ 
+2. Manual verification of line breaks
+Chinese does not use spaces between words, so engines often break lines at arbitrary points.
+Common issues:
+•	breaking after particles or measure words
+•	splitting idioms or fixed expressions
+•	breaking mid concept (e.g., “技能冷 / 却时间”)
+Guideline: 
+Always verify line breaks manually in engine.
+Do not rely on automatic wrapping.
+ 
+3. Font support and fallback glyphs
+Many default fonts used in Western builds lack full Simplified Chinese coverage.
+Risks:
+•	missing characters
+•	fallback to a different font
+•	inconsistent stroke thickness
+•	mismatched style
+Guideline: 
+Use a font with full GB2312/GB18030 coverage.
+Check all UI screens for fallback glyphs (□ or �).
+ 
+4. Avoid mixing Simplified and Traditional Chinese
+Mixing scripts looks unprofessional and confuses players.
+Typical causes:
+•	copy pasted text from online sources
+•	Traditional characters in item names or lore
+•	UI strings imported from older builds
+Guideline: 
+Ensure all text is consistently Simplified Chinese unless the game explicitly requires otherwise.
+ 
+5. Consistent punctuation style
+Chinese uses full width punctuation, which differs from English punctuation.
+Examples:
+•	， 。 ！ ？ ： ；
+•	“ ” instead of " "
+•	—— instead of —
+Guideline: 
+Use full width punctuation across all UI, dialogue, and system messages.
+ 
+Best Practices
+1. Test UI text in engine before LQA
+Spreadsheet perfect text often breaks once imported into the build.
+Check:
+•	truncation
+•	overlapping elements
+•	incorrect wrapping
+•	font inconsistencies
+•	scaling issues on different resolutions
+Guideline: 
+Perform a UI pass in Unity/Unreal before sending the build to LQA.
+ 
+2. Use shorter phrasing for UI elements
+Buttons, HUD elements, and menus require concise text.
+Examples:
+•	“Start Game” → “开始游戏” (OK)
+•	“Confirm Selection” → “确认” (better than “确认选择”)
+•	“Character Customization” → “角色定制” (avoid long forms)
+Guideline: 
+Prioritize clarity and brevity.
+ 
+3. Validate readability on mobile and low resolution screens
+Chinese characters lose clarity when scaled down.
+Common issues:
+•	thin strokes disappearing
+•	characters merging visually
+•	low contrast on complex backgrounds
+Guideline: 
+Test UI on:
+•	720p
+•	mobile screens
+•	Steam Deck / handheld devices
+ 
+4. Avoid overusing English terms
+Some English terms are acceptable (e.g., “HP”, “DPS”), but many confuse players.
+Examples to avoid:
+•	“Buff/Debuff” → use 增益 / 减益
+•	“Cooldown” → 冷却时间
+•	“Quest Log” → 任务日志
+Guideline: 
+Use English only when it is the established norm in Chinese gaming communities.
+ 
+5. Reserve space for text expansion
+Chinese is usually shorter than English, but certain concepts expand.
+Examples:
+•	“Settings” → 设置 (short)
+•	“Privacy Policy” → 隐私政策 (longer)
+•	“Character Loadout” → 角色装备配置 (much longer)
+Guideline: 
+Design UI with flexible containers.
+ 
+6. Avoid vertical text unless stylistically required
+Vertical Chinese text is harder to read in gameplay contexts.
+Guideline: 
+Use horizontal text for all functional UI.
+
