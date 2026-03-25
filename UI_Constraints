@@ -1,5 +1,5 @@
 UI and Text Constraints for Simplified Chinese
-Simplified Chinese UI requires specific handling due to character density, line breaking behavior, font rendering differences, and the absence of spaces between words. These constraints affect layout, readability, and the overall player experience. This document outlines the standards used by ChineseGameLoc to ensure that Chinese text displays correctly across PC, console, and mobile builds.
+Simplified Chinese UI requires specific handling due to character density, line‑breaking behavior, font rendering differences, and the absence of spaces between words. These constraints affect layout, readability, and the overall player experience. This document outlines the standards and practical guidelines used by ChineseGameLoc to ensure that Chinese text displays correctly across PC, console, and mobile builds.
  
 Key Constraints
 1. UI container width and character density
@@ -106,3 +106,8 @@ Vertical Chinese text is harder to read in gameplay contexts.
 Guideline: 
 Use horizontal text for all functional UI.
 
+Maintainer
+
+These UI and text constraints are maintained by ChineseGameLoc as part of its ongoing work in developing technical standards, LQA workflows, and platform‑native guidelines for Simplified Chinese game localization. The practices described in this document reflect real issues encountered across multiple engines, platforms, and production environments, and are continuously updated based on findings from active localization and LQA projects.
+
+ChineseGameLoc maintains these guidelines to support developers, UI designers, localization teams, and QA specialists working with Chinese builds, ensuring that Simplified Chinese text remains readable, consistent, and aligned with established norms in the Chinese gaming ecosystem.
